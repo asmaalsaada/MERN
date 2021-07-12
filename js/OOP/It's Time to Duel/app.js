@@ -48,4 +48,5 @@ const pairProgramming = new Effects("Pair Programming",3,"power",2);
 hardAlgo.play(redBeltNinja);
 unhandeledPromiseRegection.play(redBeltNinja);
 pairProgramming.play(blackBeltNinja);
+redBeltNinja.attack(blackBeltNinja);
 pairProgramming.play(hardAlgo); //throws an error
