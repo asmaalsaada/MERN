@@ -13,6 +13,7 @@ class Unit extends Card{
     attack(target){
         target.resiliance -= this.power;
         console.log(`${this.name} reduced ${target.name}'s resiliance by ${this.power}`)
+        console.log(target);
     }
 }
 class Effects extends Card{
