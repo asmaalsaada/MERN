@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 class PersonAge extends React.Component {
-    
 constructor(props) {
     super(props);
     this.state = {
