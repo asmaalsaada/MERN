@@ -2,7 +2,7 @@ import './App.css';
 import { Router } from '@reach/router';
 import ProductDetails from './components/ProductDetails';
 import Main from './views/Main';
-import ProductUpdate from './components/ProductUpdate';
+import ProductUpdate from './views/ProductUpdate';
 
 function App() {
   return (
